@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/siaz7216/public_html/rwtest
+    - /bin/cp index.php $DEPLOYPATH
